@@ -1,0 +1,100 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  width: 350px;
+  max-height: 400px;
+  margin: 0;
+  padding: 0;
+  color: #202124;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #f1f3f4;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+#clearHistoryBtn {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#clearHistoryBtn:hover {
+  background-color: #f8f8f8;
+}
+
+#historyList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.history-item, .empty-message, .loading {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.history-item {
+  cursor: pointer;
+}
+
+.history-item:hover {
+  background-color: #f1f3f4;
+}
+
+.history-item.closed {
+  opacity: 0.6;
+  cursor: default;
+  background-color: #fafafa;
+}
+
+.history-item.closed:hover {
+  background-color: #fafafa;
+}
+
+.favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta {
+  font-size: 11px;
+  color: #5f6368;
+}
+
+.empty-message, .loading {
+  color: #5f6368;
+  font-style: italic;
+  justify-content: center;
+}
