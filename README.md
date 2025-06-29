@@ -6,10 +6,10 @@ Audio Log solves this problem by maintaining a comprehensive history of all audi
 
 Perfect for users who:
 
-Keep many tabs open simultaneously
-Listen to background music or podcasts while working
-Need to identify unexpected audio sources
-Want to revisit tabs that previously played content
+* Keep many tabs open simultaneously
+* Listen to background music or podcasts while working
+* Need to identify unexpected audio sources
+* Want to revisit tabs that previously played content
 
 Simple, lightweight, and privacy-focused - Audio Log runs entirely locally and doesn't collect any personal data.
 
